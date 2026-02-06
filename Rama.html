@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rama's CV</title>
+<style type="text/css">
+     p.r {color : blue}
+  p em {color : green}
+  body {
+    background-color:White;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    margin: 0;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1000px;
+    width: 100%;
+    background:white;
+    border: 5px solid lightblue;
+  }
+
+  aside {
+    background:lightblue;
+    color:lightblack;
+    padding: 40px;
+    text-align: center;
+  }
+
+  aside img.profile {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  aside h2 {
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 30px;
+  }
+
+  aside h2 span { font-weight: 300; font-size: 0.9em; }
+
+  aside h3 {
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 5px;
+  }
+
+  aside ul {
+    list-style: none;
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+
+  aside ul li {
+    margin: 10px 0;
+    text-align: left;
+  }
+
+  article ol {
+    list-style: decimal;
+      margin-bottom: 30px;
+    padding-left: 20px;
+  }
+
+  article ol li {
+    margin: 10px 0;
+    text-align: left;
+  }
+  aside ul li img.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+
+  aside ul li meter::-webkit-meter-optimum-value {
+       background: #03a9f4; 
+         border-radius: 5px;
+  }
+
+  aside a {
+    color:lightblack;
+  }
+
+  section {
+    padding: 40px;
+  }
+
+  section h2 {
+    color: lightblack;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #03a9f4;
+    padding-bottom: 5px;
+  }
+
+  section article { margin-bottom: 30px; }
+  section article h4 { color: lightblack; margin-bottom: 10px; }
+  section article p { color: lightblack; margin-bottom: 10px; line-height: 1.5; }
+
+  table { width: 100%; }
+  table td { padding: 5px 10px; vertical-align: center; }
+  table td h4 { margin-bottom: 5px; }
+
+  @media (max-width: 768px) {
+    header { grid-template-columns: 1fr; }
+    aside { padding: 30px; }
+    section { padding: 30px; }
+  }
+
+     @media print {
+    
+       header {
+        display: block;
+           max-width: none;
+        box-shadow: none; 
+           border: none;
+    }
+
+       aside {
+        background: white !important;
+             color: black !important;   
+           padding: 0;
+    }
+
+      aside meter {
+        display: none;
+    }
+
+      aside a {
+        color: black !important;
+        text-decoration: underline    }
+}
+</style>
+</head>
+<body>
+ <p class="r">hi <em> hhhh </em> </p> 
+<header>
+
+  <aside>
+    <img src="Profile.png" alt="Rama's pic" class="profile" />
+    <h2> Rama Faris <br/> <span> AI &amp; Data Science </span></h2>
+
+    <h3>Contact Info</h3>
+    <ul>
+    <li><img src="Phone.png" style="height: 20px; vertical-align: middle; margin-right: 5px;" alt="Phone icon">
+    +962#########</li>
+
+        <li>
+    <img src="mail.png" style="height: 20px; vertical-align: middle; margin-right: 5px;" alt="Email icon"> 
+    <a href="mailto:rama2003@gmail.com">Contact me</a>
+        </li>
+
+      <li>
+    <img src="IN.png" style="height: 20px; vertical-align: middle; margin-right: 5px;" alt="LinkedIn icon"> 
+    <a href="https://www.linkedin.com/in/rama/" target="_blank">LinkedIn</a>
+</li>
+
+      <li>
+    <img src="Location.png" style="height: 20px; vertical-align: middle; margin-right: 5px;" alt="Location icon"> 
+    Amman, Jordan
+</li>
+    </ul>
+
+    <h3>Education</h3>
+    <ul>
+      <li>
+        <h4>2021 - Present</h5>
+        <h4>Bachelor in AI &amp; Data Science</h4>
+        <h4><a href="https://hu.edu.jo/" target="_blank">Hashemite University</a></h4>
+      </li>
+    </ul>
+
+    <h3>Languages</h3>
+    <ul>
+     <li>
+        Arabic - 100%
+        <meter min="0" max="100" value="100"></meter>
+     </li>
+     <li>
+        English - 85%
+        <meter min="0" max="100" value="85"></meter>
+     </li>
+    </ul>
+
+  </aside>
+
+  <section>
+    <article>
+      <h2>Profile</h2>
+      <p>A highly motivated fourth-year Artificial Intelligence and Data Science student at Hashemite University, driven to apply advanced AI and data analysis concepts in real-world projects. Skilled in Python, data analysis, and problem-solving, with the ability to collaborate effectively within team environments. Eager to continue learning, growing, and contributing to impactful solutions in a professional setting.</p>
+    </article>
+
+    <article>
+    <h2>Certifications</h2>
+    <ol>
+      <li>Introduction to Python</li>
+      <li>Data Science - Using Python</li>
+      <li>Introduction to Arduino</li>
+      <li>Introduction to Robotics</li>
+      <li>Introduction to Natural Language Processing in Python</li>
+    </ol>
+    </article>
+
+    <article>
+      <h2>Skills</h2>
+          <table border="1">
+        <tr>
+            <td><h4>Data & AI Skills</h4></td>
+            <td>SQL, Pandas, NumPy, Machine Learning Algorithms, Deep Learning.</td>
+       </tr>
+               <tr>
+            <td><h4>Big Data & Workflow Tools</h4></td>
+                   <td>Hadoop, Spark, Airflow.</td>
+        </tr>
+         <tr>
+            <td><h4>Data Processing</h4></td>
+                   <td>Data Cleaning and Preprocessing, Data Analysis, Data Visualization, Reporting.</td>
+        </tr>
+         <tr>
+            <td><h4>Web & Programming</h4></td>
+            <td>C++, python, HTML, CSS.</td>
+        </tr>
+         <tr>
+            <td><h4>Tools & Systems</h4></td>
+            <td>Linux, Windows, Visual Studio Code, Microsoft Office.</p>
+            </td>
+        </tr>
+         <tr>
+            <td><h4>Soft Skills</h4></td>
+            <td>Analytical Thinking, Problem-Solving, Teamwork, Time Management, Communication.</td>
+        </tr>
+      </table>
+    </article>
+  </section>
+
+</header>
+
+</body>
+</html>
